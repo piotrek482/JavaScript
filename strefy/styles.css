@@ -1,0 +1,245 @@
+body
+{
+background-color: #33CCCC;
+}
+
+#container
+{
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
+
+#header
+{
+color: white;
+background-color: #757877;
+font-family: verdana;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+letter-spacing: 3px;
+font-size: 20px;
+}
+
+#nav
+{
+float: left;
+background-color: green;
+width: 240px;
+min-height: 620px;
+font-size: 20px;
+padding: 10px;
+
+
+position: fixed;
+right: 0;
+top: 23%;
+width: 10em;
+margin-top: -2.5em;
+}
+
+
+#zegar
+{
+margin: 0 auto;
+width: 160px;
+min-height: 120px;
+font-size: 20px;
+}
+
+
+.option
+{
+border: 1px solid black;
+}
+
+.option:hover
+{
+cursor: pointer;
+background-color: blue;
+color: white;
+}
+
+
+#section
+{
+float: left;
+background-color: orange;
+min-height: 620px;
+padding: 20px;
+text-align: justify;
+font-size: 18px;
+}
+
+#footer
+{
+clear: both;
+background-color: red;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+#strefa1
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa2
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa3
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa4
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa5
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa6
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa7
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa8
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+#strefa9
+{
+color: red;
+font-size: 32px;
+letter-spacing: 3px;
+font-weight: bold;
+text-align: center;
+}
+
+.podtytul
+{
+color: darkgreen;
+font-size: 20px;
+font-weight: bold;
+}
+
+.film
+{
+color: darkgreen;
+font-size: 20px;
+font-weight: bold;
+width: 50%;
+margin: 0 auto;
+}
+
+a:link
+{
+color: white;
+}
+
+a:hover
+{
+color: red;
+}
+
+a:visited
+{
+color: yellow;
+}
+
+.zdjecia
+{
+text-align: center;
+}
+
+.pietra
+{
+color: blue;
+}
+
+.spis
+{
+color: black;
+}
+
+.red
+{
+color: red;
+font-weight: bold;
+}
+
+.pink
+{
+color: CC0099;
+font-weight: bold;
+}
+
+.brozne
+{
+color: brozne;
+font-weight: bold;
+}
+
+.photos
+{
+	height: 280px !important;
+	width: 929px !important;
+}
+
+.napisik
+{
+	font-size: 25px;
+	text-align: center;
+	display: block;
+}
+
+.napisik a
+{
+	color: blue !important;
+}
