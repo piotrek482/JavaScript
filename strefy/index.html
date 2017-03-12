@@ -14,10 +14,13 @@
 		<link rel="stylesheet" href="photos.css" type="text/css">
 		<link rel="stylesheet" href="galeria.css" type="text/css" media="screen">
 
-		<script type="text/javascript" src="timer.js"></script>	 
+		<script type="text/javascript" src="timer.js"></script>
+		<script type="text/javascript" src="myscript.js"></script>
 	</head>
 
-	<body onload="odliczanie();">
+	<!--Aby wywoałć obie funkcje na raz:
+	<body onload="odliczanie(); zmien();">	-->
+	<body onload="zmienTag();">		
 
 		<div id="container">
 		
@@ -38,6 +41,8 @@
 							<div class="option"><a href="#strefa7">Tajga</a></div>
 							<div class="option"><a href="#strefa8">Tundra</a></div>
 							<div class="option"><a href="#strefa9">Pustynie lodowe</a></div>
+
+							<button id="zmien" onclick="zmienElementId()">Zmien  element ID</button>
 						</div>
 						
 						<br/><br/>
@@ -52,7 +57,7 @@
 					<br/><br/>
 					
 						<div id="strefa1">Wilgotne lasy równikowe </div>
-						Charakterystyczna, wiecznie zielona formacja leśna strefy międzyzwrotnikowej. Występuje na ubogich <a href="http://pl.wikipedia.org/wiki/Gleby_laterytowe" >glebach laterytowych</a>, w klimacie przez cały rok jednostajnie gorącym i wilgotnym. Na skutek szybkiego rozkładu materii organicznej roślinność jest gęsta i bujna. Lasy te cechuje brak sezonowej rytmiki w życiu roślin, ogromne bogactwo gatunkowe drzew (na 1 hektarze lasu tropikalnego występuje ok. <b>200 gatunków drzew</b>, podczas gdy w lesie strefy umiarkowanej dziesięciokrotnie mniej), wielowarstwowy układ drzewostanu oraz obfitość lian i <a href="http://pl.wikipedia.org/wiki/Epifit" target="_blank">epifitów</a>. Drzewa mają proste, wysokie (do 80 m) pnie.<br/><br/>
+						<p>Charakterystyczna, wiecznie zielona formacja leśna strefy międzyzwrotnikowej. Występuje na ubogich <a href="http://pl.wikipedia.org/wiki/Gleby_laterytowe" >glebach laterytowych</a>, w klimacie przez cały rok jednostajnie gorącym i wilgotnym. Na skutek szybkiego rozkładu materii organicznej roślinność jest gęsta i bujna. Lasy te cechuje brak sezonowej rytmiki w życiu roślin, ogromne bogactwo gatunkowe drzew (na 1 hektarze lasu tropikalnego występuje ok. <b>200 gatunków drzew</b>, podczas gdy w lesie strefy umiarkowanej dziesięciokrotnie mniej), wielowarstwowy układ drzewostanu oraz obfitość lian i <a href="http://pl.wikipedia.org/wiki/Epifit" target="_blank">epifitów</a>. Drzewa mają proste, wysokie (do 80 m) pnie.</p><br/><br/>
 							
 						<div class="zdjecia">
 						<img src="img/las.gif" alt="deszczowy las rownikowy" /></div><br/>
