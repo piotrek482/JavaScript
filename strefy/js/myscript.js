@@ -22,14 +22,14 @@ document.write('<h1>Witaj na mojej stronie!</h1>');
 */
 
 
-//FUNKCJE
+//FUNKCJE JavaScript
 
 //1.tworzymy funkcje zmienElementId();  gdzies w index.html musi byc przycisk z wywołaniem funckji  --> onlaod="zmienElementId()"
 function zmienElementId() 
 {
-	var napis = "Menu";		//zmienna pomocnicza
+	var napis = "Lasy";		//zmienna pomocnicza
 
-	document.getElementById('strefa1').innerHTML = napis + " cos tam";	//pobieramy element o id strefa1 i podmieniamy zawartosc
+	document.getElementById('strefa1').innerHTML = napis + " równikowe";	//pobieramy element o id strefa1 i podmieniamy zawartosc
 	document.getElementById('strefa1').style.color = 'white'; 			//zmieniamy kolor tekstu na biały
 }
 
@@ -39,3 +39,24 @@ function zmienTag()
 	var pharagraphs = document.getElementsByTagName('p');
 	console.log('Na stronie znajdują się: ' + pharagraphs.length + " akapity");		//liczy ilość akapitów i wyświetla info
 }
+
+// #######################################################################################################################
+
+//FUNKCJE jQuery --> wywoływane kiedy struktura dokumentu jest już utworzona (  $(document).ready(function(){});  )
+$(document).ready(function()
+{
+	$('.slider_unslider').unslider();
+
+});
+
+// #######################################################################################################################
+
+//FUNKCJE underscore.js
+
+//1. Funkcja mieszajaca liczby _.shuffle
+//każda funkcja w tej bibliotece musi zaczynać się od "podłogi i kropki" --> _.nazwaFunkcji(argument);
+var array = [1,2,3,4,5,6];
+var shuffle = _.shuffle(array);
+
+console.log(shuffle);
+

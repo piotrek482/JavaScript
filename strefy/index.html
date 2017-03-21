@@ -10,12 +10,28 @@
 
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<link rel="stylesheet" href="styles.css" type="text/css">
+		
 		<link rel="stylesheet" href="photos.css" type="text/css">
 		<link rel="stylesheet" href="galeria.css" type="text/css" media="screen">
 
-		<script type="text/javascript" src="timer.js"></script>
-		<script type="text/javascript" src="myscript.js"></script>
+		<!--unslider css-->
+		<link rel="stylesheet" type="text/css" href="unslider/unslider.css">
+		<link rel="stylesheet" type="text/css" href="unslider/unslider-dots.css">
+
+		<!-- na końcu podpinamy swoj css -->
+		<link rel="stylesheet" href="styles.css" type="text/css">
+
+		<!-- ######################################################################################## -->
+
+		<!-- najpierw podpinamy skrypt jQuery potem inne -->
+		<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+		<script type="text/javascript" src="unslider/unslider-min.js"></script>
+		<script type="text/javascript" src="js/timer.js"></script>
+		<script type="text/javascript" src="js/underscore-min.js"></script>
+
+		<!-- na końcu podpisany swoje skrypty!!!!!!!!! -->
+		<script type="text/javascript" src="js/myscript.js"></script>
+		
 	</head>
 
 	<!--Aby wywoałć obie funkcje na raz:
@@ -139,21 +155,24 @@
 						<div class="podtytul">Fauna</div>
 						Lasy deszczowe cechują się bogactwem gatunków zwierząt. Spośród ssaków występują tu np. małpy, także człekokształtne (na Madagaskarze małpiatki), hipopotamy, bawoły, okapi. Część zwierząt wykazuje przystosowanie do życia w gęstwinach leśnych, np. zmniejszenie rozmiaru ciała (np. <a href="http://pl.wikipedia.org/wiki/S%C5%82o%C5%84_afryka%C5%84ski_le%C5%9Bny" target="_blank">słoń afrykański leśny</a>).<br/><br/>
 						
-						<div class="zdjecia">
-							<img src="img/malpy.jpg"  title="małpka" alt="malpa" style="float: left"/>
-							<img src="img/okapi.jpg"  title="okapi"  alt="okapi" style="float: left"/>
-							<img src="img/papuga.jpg" title="papuga" alt="papuga" style="float: left"/>
+						<div class="zdjecia slider_unslider">
+							<ul>
+								<li><img src="img/malpy.jpg"  title="małpka" alt="malpa" /></li>
+								<li><img src="img/okapi.jpg"  title="okapi"  alt="okapi" /></li>
+								<li><img src="img/papuga.jpg" title="papuga" alt="papuga" /></li>
+							</ul>
 						</div>
-						<div style="clear:both"></div>
 						<br/><br/>
 						
 						<div class="podtytul">Wykorzystanie przez ludzi</div> 
 						Tereny lasów równikowych zamieszkiwane są przez plemiona zajmujące się łowiectwem, zbieractwem, a także uprawą roli – przykładem są afrykańscy Pigmeje i Bantu, malajscy Semangowie, Papuasi z Nowej Gwinei, Indianie południowoamerykańscy i inni. Roślinność wilgotnych lasów równikowych dostarcza ludziom takich produktów, jak cynamon, pieprz, goździki oraz szlachetne gatunki drewna: mahoń, heban, balsy i palisander. Z niektórych tropikalnych roślin uzyskuje się substancje wykorzystywane do produkcji leków. W miejscu wyciętych lasów deszczowych ludzie zakładają plantacje bananowców, trzciny cukrowej, kawy i palm kokosowych.<br/><br/>
 						
-						<div class="zdjecia">
-							<img src="img/pigmeje1.jpg" width="300" height="200" alt="pigmeje" title="Pigmeje" style="float: left"/>
-							<img src="img/pigmeje2.jpeg" width="300" height="200" alt="pigmeje2" title="Pigmeje" style="float: left"/>
-							<img src="img/bantu.jpg" width="300" height="200" alt="murzyni bantu" title="Bantu" style="float: left"/>
+						<div class="zdjecia slider_unslider">
+							<ul>
+								<li><img src="img/pigmeje1.jpg" width="300" height="200" alt="pigmeje" title="Pigmeje" /></li>
+								<li><img src="img/pigmeje2.jpeg" width="300" height="200" alt="pigmeje2" title="Pigmeje" /></li>
+								<li><img src="img/bantu.jpg" width="300" height="200" alt="murzyni bantu" title="Bantu" /></li>
+							</ul>
 						</div>
 						<div style="clear:both"></div>
 						<br/><br/>
